@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "~@flaticon/flaticon-uicons/css/all/all";
+body{
+  background-color: #f8f8f8;
+  width: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+  }
+.active{
+background-color: rgba(63, 63, 255, 0.947);
+color: white;
+}
+.actives{
+    z-index: 500;
+   
+}
+.no-scroll{
+  overflow-y:hidden !important;
+}
